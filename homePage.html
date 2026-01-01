@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,
+    200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1
+    ,900&display=swap" rel="stylesheet">
+    <title>Todoist Signup Page</title>
+</head>
+<body>
+    <div class="homePage-container">
+        <div class="left-side">
+            <h2>todoist</h2>
+            <h3>Sign up</h3>
+            <div class="button-container">
+                <button><img src="Images/icons8-google.svg">Continue with Google</button>
+                <button><img src="Images/icons8-facebook.svg">Continue with Facebook</button>
+                <button><img src="Images/icons8-apple.svg">Continue with Apple</button>
+            </div>
+            <div class="seperate"></div>
+            <p id="errorMessage"></p>
+            <div class="form-box">
+                <div>
+                    <input type="text" id="email" placeholder="">
+                    <label for="email">Email</label>
+                </div>
+                <div>
+                    <input type="password" id="password" placeholder="">
+                    <label for="password">Password</label>
+                </div>
+                <button id="submit">Sign up with email</button>
+            </div>
+            <p id="term-service">By continuing with Google, Apple, or Email, you agree to Todoist’s <a href="">Terms of Service</a> and <a href="">Privacy Policy.</a>
+            </p>
+            <p id="logIn">Already signed up? <a href="">Go to login</a></p>
+        </div>
+        <div class="right-side">
+            <div class="image-container">
+                <img src="Images/undraw_to-do-app_esjl.svg" alt="">
+            </div>
+            <div class="to-do-list">
+                <div class="task">
+                    <div class="header">
+                        <p id="circle"></p>
+                        <p>Finish Q3 budget</p>
+                    </div>
+                    <div class="task-body">
+                        <div class="info">
+                            <p><img src="Images/icons8-bullseye-48.png">In 5 days</p>
+                            <p><img src="Images/icons8-tag-64.png">Finance</p>
+                        </div>
+                        <div class="catergory">
+                            <p>Inbox<img src="Images/icons8-inbox-50.png"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="task">
+                    <div class="header">
+                        <p id="circle"></p>
+                        <p>Cook Pasta</p>
+                    </div>
+                    <div class="task-body">
+                        <div class="info">
+                            <p><img src="Images/icons8-bullseye-48.png">In 5 days</p>
+                            <p><img src="Images/icons8-tag-64.png">Finance</p>
+                        </div>
+                        <div class="catergory">
+                            <p>Inbox<img src="Images/icons8-inbox-50.png"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="task">
+                    <div class="header">
+                        <p id="circle"></p>
+                        <p>Update the cashBook</p>
+                    </div>
+                    <div class="task-body">
+                        <div class="info">
+                            <p><img src="Images/icons8-bullseye-48.png">In 2 hours</p>
+                            <p><img src="Images/icons8-tag-64.png">Finance</p>
+                        </div>
+                        <div class="catergory">
+                            <p>Inbox<img src="Images/icons8-inbox-50.png"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="left-footer">
+                <h2>New: Dictate your tasks with Ramble</h2>
+                <p>Turn your thoughts into tasks. Just talk, and Ramble handles the rest.</p>
+                <p>Available on Desktop, iOS, Android and more.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>  
+</body>
+</html>
