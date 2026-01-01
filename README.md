@@ -10,7 +10,7 @@ This project serves as my "Masterclass" in Vanilla JavaScript, CSS architecture,
 ---
 
 ## 📸 Preview
-![Project Preview](./todoits.webm)
+![Project Preview](./preview.png)
 
 
 ---
