@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+.loginPage-container{
+    width: 100%;
+    display: flex;
+}
+.right-side{
+    width: 50%;
+   min-height: 100vh;
+    background: linear-gradient(to top, #655ef4,white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.image-container{
+    width: 80%;
+    height: 55vh;
+    margin: 1rem auto;
+}
+.image-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.left-side{
+    display: flex;
+    width: 50%;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+.content-container h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0.1rem 0;
+}
+.content-container h3{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0.5rem 0; 
+}
+.button-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.button-container button img{
+    vertical-align: middle;
+    height: 30px;
+    margin-right:0.5rem ;
+}
+.button-container button{
+    display: block;
+    width: 100%;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0.8rem;
+    background-color: white;
+    border: 1px solid rgb(181, 179, 179);
+    border-radius: 12px;
+    cursor: pointer;
+}
+.form-box{
+    width: 80%;
+    margin:0.5rem auto;
+}
+.form-box div{
+    position: relative;
+    margin-top: 30px;
+}
+.form-box div input{
+    width: 100%;
+    height: 3rem;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 1rem;
+}
+.form-box div label{
+    position: absolute;
+    top: 26px;
+    left: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in;
+}
+.form-box div input:focus + label,
+.form-box div:not(:placeholder-shown) + label{
+    top: -20px;
+    font-size: 0.85rem;
+    color: black;
+}
+#logIn{
+    width: 80%;
+    height: 2.5rem;
+    border: 1px solid  #6c63ff;
+    background-color: #6c63ff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+#logIn:hover{
+    background-color: #544fa5;
+    cursor: pointer;
+    border: 1px solid #544fa5;
+}
+.left-footer,.signUp-container{
+    width: 80%;
+    margin: 0.5rem auto;
+}
+.left-footer p{
+    margin: 0.3rem 0;
+    font-size: 14px;
+}
+.signUp-container p{
+    margin: 0.3rem 0;
+    font-size: 14px;
+}
+    
